@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<base href="<%=basePath%>">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title></title>
+</head>
+<body style="text-align:center;">
+	<input type="button" value="one" class="btn"/>
+	<input type="button" value="two"  class="btn" />
+	<input type="button" value="three"	class="btn" />
+	<br>
+	<div class="con">
+	<h1 class="content1"></h1>
+	<h1 class="content2"></h1>
+	<h1 class="content3"></h1>
+	</div>
+</body>
+<script type="text/javascript">
+</script>
+</html>ml>

@@ -1,0 +1,9 @@
+127.0.0.1 - - [30/Jul/2019:14:29:55 +0800] "GET / HTTP/1.1" 404 1068
+0:0:0:0:0:0:0:1 - - [30/Jul/2019:14:29:57 +0800] "GET /reg_login/login.jsp HTTP/1.1" 200 1034
+0:0:0:0:0:0:0:1 - - [30/Jul/2019:14:29:57 +0800] "GET /reg_login/css/login.css HTTP/1.1" 200 3682
+0:0:0:0:0:0:0:1 - - [30/Jul/2019:14:30:04 +0800] "POST /reg_login/LoginServlet HTTP/1.1" 200 1061
+0:0:0:0:0:0:0:1 - - [30/Jul/2019:14:30:10 +0800] "POST /reg_login/LoginServlet HTTP/1.1" 200 1061
+0:0:0:0:0:0:0:1 - - [30/Jul/2019:14:30:13 +0800] "GET /reg_login/regist.jsp HTTP/1.1" 200 1913
+0:0:0:0:0:0:0:1 - - [30/Jul/2019:14:30:13 +0800] "GET /reg_login/css/reg.css HTTP/1.1" 200 3169
+0:0:0:0:0:0:0:1 - - [30/Jul/2019:14:30:19 +0800] "POST /reg_login/RegistServlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [30/Jul/2019:14:30:19 +0800] "GET /reg_login/login.jsp HTTP/1.1" 200 1041

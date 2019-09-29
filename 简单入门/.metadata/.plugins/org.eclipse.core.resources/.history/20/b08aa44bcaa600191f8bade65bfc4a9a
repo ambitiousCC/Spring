@@ -1,0 +1,46 @@
+package servlet;
+
+import java.io.IOException;
+import java.net.URLDecoder;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.json.JSONObject;
+
+public class servlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String str = request.getParameter("name");
+		JSONObject json ;
+		if("one".equals(str)) {
+			json = new JSONObject("{flag:\"pop\"}");
+		} else if("two".equals(str)) {
+			json = new JSONObject("{flag:\"classes\"}") ;
+		} else if("three".equals(str)) {
+			json = new JSONObject("{flag:\"rock\"}");
+		} else {
+			json = new JSONObject("{flag:\"null\"}");
+		}
+		response.getOutputStream().write(json.toString().getBytes("utf-8"));
+		//ajax给后台传输数据，后台必须有数据返回
+		
+		String flag = request.getParameter("flag");
+		String data="";
+		if("one".equals(flag)) {
+			data = "小明<br>小红<br>小白"
+					职员经理
+					一块红布，假行僧，新长征路上的摇滚
+		}
+		response.getOutputStream().write(data.getBytes("UTF-8"));
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		doGet(request, response);
+	}
+
+}

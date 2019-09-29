@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\崔秦\Desktop\JavaInClass"/>
+			<item value="F:\JavaInClass\henu.cs.cq"/>
+			<item value="E:\BaiduNetdiskDownload\3.Java Web进阶：数据库与MyBatis入门\步骤一：初识数据库操作\JDBC入门\JDBC入门源代码\jdbc"/>
+			<item value="D:\JavaWeb-workspace\JDBC"/>
+			<item value="D:\JavaWeb\Ajax\ajax_test1"/>
+			<item value="E:\BaiduNetdiskDownload\2.从网页搭建入门Java Web\步骤三：Java Web基础进阶\5.监听器\LoginListenerWeb"/>
+			<item value="E:\BaiduNetdiskDownload\2.从网页搭建入门Java Web\步骤二：JavaWeb基础入门\1.JSP入门\HelloWeb"/>
+			<item value="E:\BaiduNetdiskDownload\2.从网页搭建入门Java Web\步骤二：JavaWeb基础入门\4.Servlet入门\Servlet入门源码"/>
+			<item value="D:\JavaWeb-workspace\myFirst_Servlet"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+			<item value="D:\JavaWeb-workspace\webListenerTest\WebContent\index.jsp"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="525" key="DIALOG_WIDTH"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+		<item value="599" key="DIALOG_HEIGHT"/>
+		<item value="675" key="DIALOG_X_ORIGIN"/>
+		<item value="149" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

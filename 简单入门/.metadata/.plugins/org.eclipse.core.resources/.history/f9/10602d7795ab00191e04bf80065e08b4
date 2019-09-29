@@ -1,0 +1,22 @@
+package jdbc.test1;
+
+import cc.jdbc.utils.JDBCUtils;
+
+public class test4 {
+	@Test
+	/**
+	 * 数据库连接池
+	 */
+	public void demo1() {
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		try {
+			
+		} catch(Exception e) {
+			e.printStackTrace();
+		} finally {
+			JDBCUtils.run(conn, pstmt,rs);
+		}
+	}
+}

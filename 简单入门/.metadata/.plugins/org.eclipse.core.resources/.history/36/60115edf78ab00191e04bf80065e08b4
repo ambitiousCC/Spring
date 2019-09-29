@@ -1,0 +1,38 @@
+package jdbc.unit;
+
+import java.sql.SQLException;
+
+public class finallydoclose {
+	public void close() {
+
+		//¶ÔÏó´úÂë
+		if(conn!=null) {
+			try {
+				conn.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			conn = null;
+		}
+
+		if(resultSet!=null) {
+			try {
+				resultSet.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			resultSet = null;
+		}
+		if(stmt!=null) {
+			try {
+				stmt.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			stmt = null;
+		}
+	}
+}

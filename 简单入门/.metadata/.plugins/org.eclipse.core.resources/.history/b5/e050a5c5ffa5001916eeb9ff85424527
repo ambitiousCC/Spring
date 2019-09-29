@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+	int s = application.getAttribute("sum");
+	out.println(s);
+%>
+<p>加法运算器：</p>
+<p>运算结果为：<%--=request.getAttribute("sum") --%></p>
+</body>
+</html>

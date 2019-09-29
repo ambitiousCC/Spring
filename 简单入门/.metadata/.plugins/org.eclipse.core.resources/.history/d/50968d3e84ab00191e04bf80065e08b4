@@ -1,0 +1,30 @@
+package cc.jdbc.utils;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+public class JDBCUtils {
+	/**
+	 * 注册驱动
+	 * @throws ClassNotFoundException 
+	 */
+	public static void loadDriver() throws ClassNotFoundException {
+		Class.forName("com.mysql.jdbc.Driver");
+	}
+	/**
+	 * 获得链接
+	 * @throws SQLException 
+	 */
+	public static Connection loadConnect() throws SQLException {
+		loadDriver();
+		Connection conn= DriverManager.getConnection("jdbc:mysql:///jdbctest?useUnicode=true&characterEncoding=utf8","root","cuiqin233");
+		return conn;
+	}
+	/**
+	 * 获得执行
+	 */
+	public static Statement loadStatement() {
+		Statement sttm = c
+	}
+}

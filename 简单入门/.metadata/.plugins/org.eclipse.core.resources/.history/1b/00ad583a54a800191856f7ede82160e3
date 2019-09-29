@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="submit.action">
+    <input type="text" name="kaptcha" value="" />
+    <img src="kaptcha.jpg" />
+</form>
+<script src="js/jquery-1.4.2.js"></script>
+<script type="text/javascript"></script>
+</body>
+</html>

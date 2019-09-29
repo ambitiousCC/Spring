@@ -1,0 +1,28 @@
+
+
+public class Exercise_1 {
+	public static void main(String[] args) {
+		int age;
+//		age = age +1;//未初始化
+		age = 1;
+		age = age + 1;
+		System.out.println("The age is " + age);
+		
+		byte num_1 = 1;
+		byte num_2 = 2;
+//		byte num_3 = num_1 + num_2;
+		byte num_3 = (byte) (num_1 + num_2);
+		System.out.println("The num_3 is " + num_3);
+		
+		int num_4 = 6;
+		long num_5 = 7;
+//		int num_6 = num_4 + num_5;
+		long num_6 = num_4 + num_5;
+		System.out.println("The num_6 is "+ num_6);
+		
+		float num_7 = 8;
+		double num_8 = 9;
+		double num_9 = num_7 + num_8;
+		System.out.println("The num_9 is " + num_9);		
+	}
+}

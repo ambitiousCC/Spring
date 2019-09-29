@@ -1,0 +1,30 @@
+package calculatorServlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class work1Servlet
+ */
+@WebServlet("/work1Servlet")
+public class calServlet extends HttpServlet {
+    //¿˚”√PrintWrite¥Ú”°
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String num1 = request.getAttribute("n1");
+		String num2 = request.getAttribute("n2");
+		
+		System.out.println(num1);
+		System.out.println(num1);
+	}
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		doGet(request, response);
+	}
+
+}

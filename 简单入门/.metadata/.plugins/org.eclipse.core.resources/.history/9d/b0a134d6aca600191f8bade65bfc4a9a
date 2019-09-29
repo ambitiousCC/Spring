@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+	String basePath = request.getScheme() + "://" + request.getServerName() +":"+ request.getServerPort()
+					+ request.getServletContext().getContextPath();
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</style>
+</head>
+<body>
+<input type="button" value="流行歌曲"	name="pop" class="btn" />
+<input type="button" value="经典歌曲" 	name="classes" class="btn" />
+<input type="button" value="摇滚歌曲"	name="rock" class="btn" />
+<br>
+<h1 class="content"></h1>
+<script type="text/javascript" >
+$("#pop").click()(function(){
+	//单击按钮触发
+	$.ajax({
+		url:"<%=basePath%>/servlet",
+		type:"post",
+		data:{
+			
+		}
+	});
+});
+</script>
+</body>
+</html>

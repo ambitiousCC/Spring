@@ -1,0 +1,60 @@
+package jdbc.test1;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class finallydoclose {
+	public static void run(Connection conn,Statement stmt,ResultSet resultSet) {
+		if(conn!=null) {
+			try {
+				conn.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			conn = null;
+		}
+
+		if(resultSet!=null) {
+			try {
+				resultSet.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			resultSet = null;
+		}
+		if(stmt!=null) {
+			try {
+				stmt.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			stmt = null;
+		}
+	}
+	public static void run(Connection conn,Statement stmt) {
+		if(conn!=null) {
+			try {
+				conn.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			conn = null;
+		}
+
+		if(stmt!=null) {
+			try {
+				stmt.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			stmt = null;
+		}
+	}
+}

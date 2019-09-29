@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- EL表达式也太好用了吧。。。 -->
+用户名：${username }<br>
+密码：${password }
+</body>
+</html>

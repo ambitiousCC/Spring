@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</style>
+</head>
+<body>
+<input type="button" value="流行歌曲"	id="pop" class="btn" />
+<input type="button" value="经典歌曲" 	id="classes" class="btn" />
+<input type="button" value="摇滚歌曲"	id="rock" class="btn" />
+<br>
+<h1 class="content"></h1>
+<script type="text/javascript" >
+$("#pop").click()(function(){
+	//单击按钮触发
+	$.ajax({
+		
+	});
+});
+</script>
+</body>
+</html>

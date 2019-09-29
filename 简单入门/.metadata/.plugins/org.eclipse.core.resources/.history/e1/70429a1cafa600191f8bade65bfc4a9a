@@ -1,0 +1,47 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+	String basePath = request.getScheme() + "://" + request.getServerName() +":"+ request.getServerPort()
+					+ request.getServletContext().getContextPath();
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</style>
+</head>
+<body>
+<input type="button" value="流行歌曲" class="btn" />
+<input type="button" value="经典歌曲"  class="btn" />
+<input type="button" value="摇滚歌曲"	class="btn" />
+<br>
+<h1 class="content1"></h1>
+<h1 class="content2"></h1>
+<h1 class="content3"></h1>
+<script type="text/javascript" >
+$(".btn").click()(function(){
+	//单击按钮触发
+	$.ajax({
+		url:"<%=basePath%>/servlet",
+		type:"post",
+		data:{
+			name:$(this).val();
+		},
+		dataType:"json",
+		success:function(result) {
+			//响应代码
+			var flag = result.flag;
+			if("pop".equals(flag)) {
+				$(".content").text("")
+			} else if ("rock".equals(flag)) {
+				
+			} else if ("null".equals(flag)) {
+				
+			}
+		}
+	});
+});
+</script>
+</body>
+</html>

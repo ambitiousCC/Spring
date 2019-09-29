@@ -1,0 +1,27 @@
+package servlet;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import domain.User;
+/**
+ * 	初始化集合：服务器第一次启动就会自动产生一个集合用来保存注册信息
+ * @author 崔秦
+ *
+ */
+public class initServlet extends HttpServlet {
+
+	@Override
+	public void init() throws ServletException {
+		List<User> list = new ArrayList();
+	}
+	
+}

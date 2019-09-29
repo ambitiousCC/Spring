@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Filter</display-name>
+  <welcome-file-list>
+    <!-- <welcome-file>index.jsp</welcome-file> -->
+    <welcome-file>test1.jsp</welcome-file>
+  </welcome-file-list>
+  <!-- 注册过滤器 -->
+  <filter>
+  <!-- 
+  	<filter-name>characterEncodingFilter</filter-name>
+  	<filter-class>filter.CharacterEncodingFilter</filter-class>
+  	
+  	<init-param>
+  		<param-name>systemName</param-name>
+  		<param-value>filter Encoding</param-value>
+  	</init-param>
+  	
+  	<init-param>
+  		<param-name>version</param-name>
+  		<param-value>2.0</param-value>
+  	</init-param>
+  	
+  	<init-param>
+  		<param-name>charset</param-name>
+  		<param-value>UTF-8</param-value>
+  	</init-param>
+  	 -->
+  	 
+  </filter>
+  
+  <!-- +拦截映射配置 -->
+  <filter-mapping>
+  
+  	<filter-name>characterEncodingFilter</filter-name>
+  	<!-- 通配符配置 -->
+  	<url-pattern>/*</url-pattern>
+  	
+  </filter-mapping>
+</web-app>

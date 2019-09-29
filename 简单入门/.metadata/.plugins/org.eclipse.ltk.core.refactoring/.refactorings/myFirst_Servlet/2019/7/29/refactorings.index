@@ -1,0 +1,8 @@
+1563073082102	Move 'servlet-api.jar' to 'lib'
+1563075771230	Move 'success.jsp' to 'WEB-INF'
+1563075776990	Move 'success.jsp' to 'WebContent'
+1563075779107	Move 'fail.jsp' to 'WebContent'
+1563076561924	Move 'recieve.jsp' to 'WebContent'
+1563078803271	Delete element
+1563081566254	Delete element
+1563081570804	Delete element

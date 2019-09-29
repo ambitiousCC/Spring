@@ -1,0 +1,28 @@
+
+
+import java.util.Scanner;
+
+public class judgeYear {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("请输入一个有效年份");
+		if(scan.hasNextInt()){ 
+			int year = scan.nextInt();
+			//�ж�
+			if(judgeYearMethod(year))
+				System.out.println("��");
+			else 
+				System.out.println("��");
+		} else {
+			System.out.println("������һ����������");
+		}
+	}
+	
+	public static boolean judgeYearMethod(int year) {
+		boolean flag = false;
+		if((year%4==0&&year%100!=0)||year%400==0) {
+			flag = true;
+		}
+		return flag;
+	}
+}

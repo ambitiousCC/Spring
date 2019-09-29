@@ -1,0 +1,17 @@
+
+
+public class paramScope {
+    public static void main(String args[]) {
+        int k, i = 3,  j = 4;
+        k = i + j;
+        System.out.println("�ڸ��Ͽ������� k = �� + k");
+       {
+           float f; 
+           f = j + 4.5F; 
+           i++;
+           System.out.println("�ڸ��Ͽ��ڵ����	f = �� + f");
+           System.out.println("�ڸ��Ͽ��ڵ����	k = �� + k");
+        }
+        System.out.println("�ڸ��Ͽ������� i = �� + i");
+    }
+}

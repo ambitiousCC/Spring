@@ -1,0 +1,8 @@
+package ELServlet;
+
+public class Snippet {
+	public static void main(String[] args) {
+		ELServlet.elServlet
+	}
+}
+

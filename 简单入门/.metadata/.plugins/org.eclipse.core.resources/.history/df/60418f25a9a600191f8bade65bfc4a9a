@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<input type="button" value="流行歌曲"	id="pop" class="btn" />
+<input type="button" value="经典歌曲" 	id="classes" class="btn" />
+<input type="button" value="摇滚歌曲"	id="rock" class="btn" />
+</body>
+</html>

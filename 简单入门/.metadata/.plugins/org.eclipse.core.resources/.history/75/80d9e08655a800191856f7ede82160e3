@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="submit.action">
+    <input type="text" name="kaptcha" value="" id="code" maxlength="4" placeholder="请输入验证码"/>
+    <img src="kaptcha.jpg"  id="changecode" class="changecode"/>
+</form>
+<script src="js/jquery-1.4.2.js"></script>
+<script type="text/javascript">
+	$("#changecode").click(function(){
+		alert("a");
+		$(this).attr("src","kaptcha.jpg?d="+new Date().getTime());			
+	});
+</script>
+</body>
+</html>

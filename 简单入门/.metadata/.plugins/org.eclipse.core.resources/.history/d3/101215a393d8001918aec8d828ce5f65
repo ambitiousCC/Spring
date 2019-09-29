@@ -1,0 +1,16 @@
+
+
+import java.util.Scanner;
+
+public class addtionOfThreeNums {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("请输入一个三位数");
+		int n = scan.nextInt();
+		int num1 = n / 100;
+		int num2 = n % 100 /10;
+		int num3 = n % 10;
+		
+		System.out.println("三位数的数字和为:"+num1+num2+num3);
+	}
+}

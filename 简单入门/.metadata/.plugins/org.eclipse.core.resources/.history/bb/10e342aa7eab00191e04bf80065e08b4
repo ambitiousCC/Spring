@@ -1,0 +1,35 @@
+package jdbc.test1;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+
+import org.junit.Test;
+
+import com.mysql.jdbc.Driver;
+
+public class test2 {
+	@Test
+	/**
+	 * 插入语句
+	 */
+	public void demo1() {
+		Connection conn = null;
+		Statement stmt = null;
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbctest?useEncoding=true&characterEncoding=utf8","root","cuiqin233");
+			String sql = "INSERT INTO user VALUES(null,'ddd','444','催情');";
+			stmt = conn.createStatement();
+			int i = stmt.executeUpdate(sql);
+			if(i>0) {
+				System.out.println("执行成功");
+			}
+			
+		} catch(Exception e) {
+			e.printStackTrace();
+		} finally {
+			finallydoclose.run(conn, stmt);
+		}
+	}
+}

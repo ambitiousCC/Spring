@@ -1,0 +1,14 @@
+create database jdbctest;
+use jdbctest;
+create table user(
+	uid int primary key auto_increment,
+	username varchar(20),
+	password varchar(20),
+	name varchar(20)
+);
+insert into user values (null,'aaa','111','달해');
+insert into user values (null,'bbb','222','해');
+insert into user values (null,'ccc','333','달');
+insert into user values (null,'ddd','444','달해해');
+insert into user values (null,'eee','555','해해달');
+insert into user values (null,'fff','666','달달해해');

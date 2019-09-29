@@ -1,0 +1,17 @@
+
+
+import java.util.Scanner;
+
+public class addtionOfThreeNums {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("�������һ������");
+		double num1 = scan.nextDouble();
+		System.out.println("������ڶ�������");
+		double num2 = scan.nextDouble();
+		System.out.println("���������������");
+		double num3 = scan.nextDouble();
+		
+		System.out.println("��������֮��Ϊ��"+num1+num2+num3);
+	}
+}

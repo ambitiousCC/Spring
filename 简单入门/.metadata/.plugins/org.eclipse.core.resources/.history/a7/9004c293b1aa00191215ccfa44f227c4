@@ -1,0 +1,8 @@
+package test;
+
+public class test1 {
+	
+	public void test() {
+		Class class1 = Class.forName(arg0)
+	}
+}

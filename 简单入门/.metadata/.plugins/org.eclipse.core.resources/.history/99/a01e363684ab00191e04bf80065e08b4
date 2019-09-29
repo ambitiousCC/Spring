@@ -1,0 +1,5 @@
+package cc.jdbc.utils;
+
+public class JDBCUtils {
+
+}
