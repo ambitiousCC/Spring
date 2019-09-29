@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="544465e4-f527-4980-9ffb-c4e1b38a1ead" name="Default Changelist" comment="" />
+    <list default="true" id="e189011e-9027-4d3d-b2db-c9111c723cb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_ioc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,43 +32,25 @@
     <expand />
     <select />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-        <option value="spring-beans.schema" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/Program Files/apache-maven-3.6.1" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1RMkey8gjoym0cD2BytBf1cD8cS" />
+  <component name="ProjectId" id="1RVSfjcFEtGdfDEoH3EPULFyFZL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\JavaWeb-workspace\Spring_ioc\src\main\resources" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -117,22 +109,28 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="544465e4-f527-4980-9ffb-c4e1b38a1ead" name="Default Changelist" comment="" />
-      <created>1569484451399</created>
+      <changelist id="e189011e-9027-4d3d-b2db-c9111c723cb1" name="Default Changelist" comment="" />
+      <created>1569751669481</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569484451399</updated>
-      <workItem from="1569484454332" duration="2408000" />
-      <workItem from="1569486877731" duration="1231000" />
-      <workItem from="1569494153148" duration="924000" />
-      <workItem from="1569747365368" duration="296000" />
-      <workItem from="1569747674086" duration="16000" />
-      <workItem from="1569747708562" duration="1424000" />
+      <updated>1569751669481</updated>
+      <workItem from="1569751684277" duration="353000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
